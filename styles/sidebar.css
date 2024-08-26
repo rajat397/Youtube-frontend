@@ -1,0 +1,73 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top:55px;
+    width: 70px;
+    background-color: white;
+    align-items: center;
+    z-index: 100;;
+}
+
+.home,.explore,.subscriptions,.originals,.youtube-music,.library{
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 70px;
+    cursor: pointer;
+  
+    /* border: 2px solid red; */
+
+}
+
+.home:hover,.explore:hover,.subscriptions:hover,.originals:hover,.youtube-music:hover,.library:hover{
+    background-color: rgb(223, 217, 217);
+}
+.icon-title{
+    
+    font-size: 11px;
+    /* border: 2px solid black; */
+}
+
+
+.home-icon{
+    height: 30px;
+    width: 25px;
+
+}
+
+.explore-icon{
+
+    height: 30px;
+    width: 25px;
+
+}
+
+.subscriptions-icon{
+    width: 25px;
+    height: 30px;
+}
+
+.originals-icon{
+    height: 30px;
+    width: 25px;
+}
+
+.youtube-music-icon{
+    height: 30px;
+    width: 25px;
+}
+
+.library-icon{
+
+    height: 30px;
+    width: 25px;
+} 
